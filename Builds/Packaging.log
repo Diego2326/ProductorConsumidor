@@ -1,0 +1,147 @@
+2025-08-23 15:00:42 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f94894a51f0; archive(resolved)="<IDEArchive: 0x600000009880>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team(resolved)="<IDEProvisioningBasicTeam: 0x600002a7e040; teamID='944VS3P2G8', teamName='Diego Vargas barrientos'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f94894a51f0; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="<IDEProvisioningBasicTeam: 0x600002a7e040; teamID='944VS3P2G8', teamName='Diego Vargas barrientos'>">
+	<IDEDistributionProcessingPipelineContext: 0x7f9489418ab0; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="<IDEProvisioningBasicTeam: 0x600002a7e040; teamID='944VS3P2G8', teamName='Diego Vargas barrientos'>">
+	<IDEDistributionContext: 0x7f94894a6fa0; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="<IDEProvisioningBasicTeam: 0x600002a7e040; teamID='944VS3P2G8', teamName='Diego Vargas barrientos'>">
+	<IDEDistributionContext: 0x7f94894a2350; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="<IDEProvisioningBasicTeam: 0x600002a7e040; teamID='944VS3P2G8', teamName='Diego Vargas barrientos'>">
+	<IDEDistributionContext: 0x7f94894a18c0; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="<IDEProvisioningBasicTeam: 0x600002a7e040; teamID='944VS3P2G8', teamName='Diego Vargas barrientos'>">
+	<IDEDistributionContext: 0x7f94894973b0; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="<IDEProvisioningBasicTeam: 0x600002a7e040; teamID='944VS3P2G8', teamName='Diego Vargas barrientos'>">
+	<IDEDistributionContext: 0x7f9489460b20; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="<IDEProvisioningBasicTeam: 0x600002a7e040; teamID='944VS3P2G8', teamName='Diego Vargas barrientos'>">
+	<IDEDistributionContext: 0x7f948904b050; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="<IDEProvisioningBasicTeam: 0x600002a7e040; teamID='944VS3P2G8', teamName='Diego Vargas barrientos'>">
+	<IDEDistributionContext: 0x7f948923dc90; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="<IDEProvisioningBasicTeam: 0x600002a7e040; teamID='944VS3P2G8', teamName='Diego Vargas barrientos'>">
+	<IDEDistributionContext: 0x7f9488731350; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="(null)">
+	<IDEDistributionContext: 0x7f9488740520; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="(null)">
+	<IDEDistributionContext: 0x7f948873fa60; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="(null)">
+	<IDEDistributionContext: 0x7f9489048340; archive = "<IDEArchive: 0x600000009880>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x6000029785e0>", team="(null)">
+	<IDEDistributionContext: 0x7f9489507240; archive = "<IDEArchive: 0x600000009880>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7f94894a51f0>
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2025-08-23 15:00:42 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/diego/Documents/XcodeProyects/ProductorConsumidor.xcarchive/Products/Applications/ProductorConsumidor.app' '/var/folders/9x/mrsh4ry949gg6w6y_4pyg3l40000gn/T/XcodeDistPipeline.~~~xoLWc8/Root/Payload/ProductorConsumidor.app'
+2025-08-23 15:00:42 +0000  >>> Copying /Users/diego/Documents/XcodeProyects/ProductorConsumidor.xcarchive/Products/Applications/ProductorConsumidor.app 
+2025-08-23 15:00:42 +0000  copying file ./_CodeSignature/CodeResources ... 
+2025-08-23 15:00:42 +0000  4315 bytes for ./_CodeSignature/CodeResources
+2025-08-23 15:00:42 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib ... 
+2025-08-23 15:00:42 +0000  975 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib
+2025-08-23 15:00:42 +0000  copying file ./Base.lproj/Main.storyboardc/BV1-FR-VrT-view-3se-qz-xqx.nib ... 
+2025-08-23 15:00:42 +0000  1302 bytes for ./Base.lproj/Main.storyboardc/BV1-FR-VrT-view-3se-qz-xqx.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2025-08-23 15:00:42 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2025-08-23 15:00:42 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2025-08-23 15:00:42 +0000  1225 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2025-08-23 15:00:42 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2025-08-23 15:00:42 +0000  924 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2025-08-23 15:00:42 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2025-08-23 15:00:42 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2025-08-23 15:00:42 +0000  copying file ./ProductorConsumidor ... 
+2025-08-23 15:00:42 +0000  168208 bytes for ./ProductorConsumidor
+2025-08-23 15:00:42 +0000  copying file ./GameScene.sks ... 
+2025-08-23 15:00:42 +0000  4696 bytes for ./GameScene.sks
+copying file ./embedded.mobileprovision ... 
+2025-08-23 15:00:42 +0000  12373 bytes for ./embedded.mobileprovision
+2025-08-23 15:00:42 +0000  copying file ./Info.plist ... 
+2025-08-23 15:00:42 +0000  1156 bytes for ./Info.plist
+2025-08-23 15:00:42 +0000  copying file ./Actions.sks ... 
+2025-08-23 15:00:42 +0000  1892 bytes for ./Actions.sks
+copying file ./PkgInfo ... 
+2025-08-23 15:00:42 +0000  8 bytes for ./PkgInfo
+2025-08-23 15:00:42 +0000 [MT] /usr/bin/ditto exited with 0
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2025-08-23 15:00:42 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2025-08-23 15:00:42 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2025-08-23 15:00:42 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2025-08-23 15:00:42 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2025-08-23 15:00:42 +0000 [MT] Archs to thin for item /Users/diego/Documents/XcodeProyects/ProductorConsumidor.xcarchive/Products/Applications/ProductorConsumidor.app are []
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionODRStep
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2025-08-23 15:00:42 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2025-08-23 15:00:42 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600000f94ae0; bundleID='com.diego.ProductorConsumidor', path='<DVTFilePath:0x6000000098f0:'/Users/diego/Documents/XcodeProyects/ProductorConsumidor.xcarchive/Products/Applications/ProductorConsumidor.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600000f9cc00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001e36100; name='Apple Development: diegoe3b@gmail.com (963922NA4A)', hash='9E6A9559522BAE759DAC82C50E5BEBC68B89B944', serialNumber='4CE9DF46B0A08A1786EE92450281389A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-07-08 16:02:38 +0000''>', entitlements='{
+    "application-identifier" = "944VS3P2G8.com.diego.ProductorConsumidor";
+    "com.apple.developer.team-identifier" = 944VS3P2G8;
+    "get-task-allow" = 1;
+}', teamID='944VS3P2G8', identifier='com.diego.ProductorConsumidor', executablePath='<DVTFilePath:0x600000089570:'/Users/diego/Documents/XcodeProyects/ProductorConsumidor.xcarchive/Products/Applications/ProductorConsumidor.app/ProductorConsumidor'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "944VS3P2G8.com.diego.ProductorConsumidor";
+    "com.apple.developer.team-identifier" = 944VS3P2G8;
+    "get-task-allow" = 1;
+}
+2025-08-23 15:00:42 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2025-08-23 15:00:42 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600000f94ae0; bundleID='com.diego.ProductorConsumidor', path='<DVTFilePath:0x6000000098f0:'/Users/diego/Documents/XcodeProyects/ProductorConsumidor.xcarchive/Products/Applications/ProductorConsumidor.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600000f9cc00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001e36100; name='Apple Development: diegoe3b@gmail.com (963922NA4A)', hash='9E6A9559522BAE759DAC82C50E5BEBC68B89B944', serialNumber='4CE9DF46B0A08A1786EE92450281389A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-07-08 16:02:38 +0000''>', entitlements='{
+    "application-identifier" = "944VS3P2G8.com.diego.ProductorConsumidor";
+    "com.apple.developer.team-identifier" = 944VS3P2G8;
+    "get-task-allow" = 1;
+}', teamID='944VS3P2G8', identifier='com.diego.ProductorConsumidor', executablePath='<DVTFilePath:0x600000089570:'/Users/diego/Documents/XcodeProyects/ProductorConsumidor.xcarchive/Products/Applications/ProductorConsumidor.app/ProductorConsumidor'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "944VS3P2G8.com.diego.ProductorConsumidor";
+    "com.apple.developer.team-identifier" = 944VS3P2G8;
+    "get-task-allow" = 1;
+}
+2025-08-23 15:00:42 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600000f94ae0; bundleID='com.diego.ProductorConsumidor', path='<DVTFilePath:0x6000000098f0:'/Users/diego/Documents/XcodeProyects/ProductorConsumidor.xcarchive/Products/Applications/ProductorConsumidor.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600000f9cc00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600001e36100; name='Apple Development: diegoe3b@gmail.com (963922NA4A)', hash='9E6A9559522BAE759DAC82C50E5BEBC68B89B944', serialNumber='4CE9DF46B0A08A1786EE92450281389A', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-07-08 16:02:38 +0000''>', entitlements='{
+    "application-identifier" = "944VS3P2G8.com.diego.ProductorConsumidor";
+    "com.apple.developer.team-identifier" = 944VS3P2G8;
+    "get-task-allow" = 1;
+}', teamID='944VS3P2G8', identifier='com.diego.ProductorConsumidor', executablePath='<DVTFilePath:0x600000089570:'/Users/diego/Documents/XcodeProyects/ProductorConsumidor.xcarchive/Products/Applications/ProductorConsumidor.app/ProductorConsumidor'>', hardenedRuntime='0'>'> to: /var/folders/9x/mrsh4ry949gg6w6y_4pyg3l40000gn/T/XcodeDistPipeline.~~~xoLWc8/entitlements~~~77Oup3
+2025-08-23 15:00:42 +0000 [MT] invoking codesign: <NSConcreteTask: 0x600000b2a850; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9E6A9559522BAE759DAC82C50E5BEBC68B89B944,
+    "--entitlements",
+    "/var/folders/9x/mrsh4ry949gg6w6y_4pyg3l40000gn/T/XcodeDistPipeline.~~~xoLWc8/entitlements~~~77Oup3",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/9x/mrsh4ry949gg6w6y_4pyg3l40000gn/T/XcodeDistPipeline.~~~xoLWc8/Root/Payload/ProductorConsumidor.app"
+)'>
+2025-08-23 15:00:42 +0000 [MT] codesign output: /var/folders/9x/mrsh4ry949gg6w6y_4pyg3l40000gn/T/XcodeDistPipeline.~~~xoLWc8/Root/Payload/ProductorConsumidor.app: replacing existing signature
+/var/folders/9x/mrsh4ry949gg6w6y_4pyg3l40000gn/T/XcodeDistPipeline.~~~xoLWc8/Root/Payload/ProductorConsumidor.app: signed app bundle with Mach-O thin (arm64) [com.diego.ProductorConsumidor]
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2025-08-23 15:00:42 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2025-08-23 15:00:42 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/9x/mrsh4ry949gg6w6y_4pyg3l40000gn/T/XcodeDistPipeline.~~~xoLWc8/Root' '/var/folders/9x/mrsh4ry949gg6w6y_4pyg3l40000gn/T/XcodeDistPipeline.~~~xoLWc8/Packages/ProductorConsumidor.ipa'
+2025-08-23 15:00:42 +0000  >>> Copying /var/folders/9x/mrsh4ry949gg6w6y_4pyg3l40000gn/T/XcodeDistPipeline.~~~xoLWc8/Root 
+2025-08-23 15:00:42 +0000  copying file ./Payload/ProductorConsumidor.app/_CodeSignature/CodeResources ... 
+2025-08-23 15:00:42 +0000  4315 bytes for ./Payload/ProductorConsumidor.app/_CodeSignature/CodeResources
+2025-08-23 15:00:42 +0000  copying file ./Payload/ProductorConsumidor.app/Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib ... 
+2025-08-23 15:00:42 +0000  975 bytes for ./Payload/ProductorConsumidor.app/Base.lproj/Main.storyboardc/UIViewController-BV1-FR-VrT.nib
+2025-08-23 15:00:42 +0000  copying file ./Payload/ProductorConsumidor.app/Base.lproj/Main.storyboardc/BV1-FR-VrT-view-3se-qz-xqx.nib ... 
+2025-08-23 15:00:42 +0000  1302 bytes for ./Payload/ProductorConsumidor.app/Base.lproj/Main.storyboardc/BV1-FR-VrT-view-3se-qz-xqx.nib
+copying file ./Payload/ProductorConsumidor.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/ProductorConsumidor.app/Base.lproj/Main.storyboardc/Info.plist
+2025-08-23 15:00:42 +0000  copying file ./Payload/ProductorConsumidor.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2025-08-23 15:00:42 +0000  1225 bytes for ./Payload/ProductorConsumidor.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/ProductorConsumidor.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2025-08-23 15:00:42 +0000  924 bytes for ./Payload/ProductorConsumidor.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/ProductorConsumidor.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/ProductorConsumidor.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/ProductorConsumidor.app/ProductorConsumidor ... 
+2025-08-23 15:00:42 +0000  168208 bytes for ./Payload/ProductorConsumidor.app/ProductorConsumidor
+copying file ./Payload/ProductorConsumidor.app/GameScene.sks ... 
+2025-08-23 15:00:42 +0000  4696 bytes for ./Payload/ProductorConsumidor.app/GameScene.sks
+copying file ./Payload/ProductorConsumidor.app/embedded.mobileprovision ... 
+2025-08-23 15:00:42 +0000  12373 bytes for ./Payload/ProductorConsumidor.app/embedded.mobileprovision
+copying file ./Payload/ProductorConsumidor.app/Info.plist ... 
+2025-08-23 15:00:42 +0000  1156 bytes for ./Payload/ProductorConsumidor.app/Info.plist
+2025-08-23 15:00:42 +0000  copying file ./Payload/ProductorConsumidor.app/Actions.sks ... 
+1892 bytes for ./Payload/ProductorConsumidor.app/Actions.sks
+2025-08-23 15:00:42 +0000  copying file ./Payload/ProductorConsumidor.app/PkgInfo ... 
+8 bytes for ./Payload/ProductorConsumidor.app/PkgInfo
+2025-08-23 15:00:42 +0000 [MT] /usr/bin/ditto exited with 0
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2025-08-23 15:00:42 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2025-08-23 15:00:42 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x6000000a87e0:'/var/folders/9x/mrsh4ry949gg6w6y_4pyg3l40000gn/T/XcodeDistPipeline.~~~xoLWc8/Root/Payload/ProductorConsumidor.app'>
+2025-08-23 15:00:42 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

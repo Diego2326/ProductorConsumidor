@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ProductorConsumidor.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>9E6A9559522BAE759DAC82C50E5BEBC68B89B944</string>
+				<key>dateExpires</key>
+				<string>8/7/26</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>944VS3P2G8.com.diego.ProductorConsumidor</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>944VS3P2G8</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>ProductorConsumidor.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>dc4d3000-2ab5-4fb0-85b8-4cd21f70a1fb</string>
+				<key>dateExpires</key>
+				<string>30/8/25</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.diego.ProductorConsumidor</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>944VS3P2G8</string>
+				<key>name</key>
+				<string>Diego Vargas barrientos</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

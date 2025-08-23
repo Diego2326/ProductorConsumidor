@@ -12,25 +12,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F1888A682E5A0184007352B8 /* Exceptions for "ProductorConsumidor Shared" folder in "ProductorConsumidor iOS" target */ = {
+		F1888A682E5A0184007352B8 /* Exceptions for "ProductorConsumidor Shared" folder in "ProductorConsumidoriOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Actions.sks,
 				Assets.xcassets,
+				Employee.swift,
 				GameScene.sks,
 				GameScene.swift,
+				HudButton.swift,
+				Mode.swift,
+				Theme.swift,
 			);
-			target = F1888A452E5A0184007352B8 /* ProductorConsumidor iOS */;
+			target = F1888A452E5A0184007352B8 /* ProductorConsumidoriOS */;
 		};
-		F1888A6C2E5A0184007352B8 /* Exceptions for "ProductorConsumidor Shared" folder in "ProductorConsumidor macOS" target */ = {
+		F1888A6C2E5A0184007352B8 /* Exceptions for "ProductorConsumidor Shared" folder in "ProductorConsumidormacOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Actions.sks,
 				Assets.xcassets,
+				Employee.swift,
 				GameScene.sks,
 				GameScene.swift,
+				HudButton.swift,
+				Mode.swift,
+				Theme.swift,
 			);
-			target = F1888A562E5A0184007352B8 /* ProductorConsumidor macOS */;
+			target = F1888A562E5A0184007352B8 /* ProductorConsumidormacOS */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -38,8 +46,8 @@
 		F1888A3D2E5A0181007352B8 /* ProductorConsumidor Shared */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				F1888A682E5A0184007352B8 /* Exceptions for "ProductorConsumidor Shared" folder in "ProductorConsumidor iOS" target */,
-				F1888A6C2E5A0184007352B8 /* Exceptions for "ProductorConsumidor Shared" folder in "ProductorConsumidor macOS" target */,
+				F1888A682E5A0184007352B8 /* Exceptions for "ProductorConsumidor Shared" folder in "ProductorConsumidoriOS" target */,
+				F1888A6C2E5A0184007352B8 /* Exceptions for "ProductorConsumidor Shared" folder in "ProductorConsumidormacOS" target */,
 			);
 			path = "ProductorConsumidor Shared";
 			sourceTree = "<group>";
@@ -96,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1888A452E5A0184007352B8 /* ProductorConsumidor iOS */ = {
+		F1888A452E5A0184007352B8 /* ProductorConsumidoriOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1888A692E5A0184007352B8 /* Build configuration list for PBXNativeTarget "ProductorConsumidor iOS" */;
+			buildConfigurationList = F1888A692E5A0184007352B8 /* Build configuration list for PBXNativeTarget "ProductorConsumidoriOS" */;
 			buildPhases = (
 				F1888A422E5A0184007352B8 /* Sources */,
 				F1888A432E5A0184007352B8 /* Frameworks */,
@@ -111,16 +119,16 @@
 			fileSystemSynchronizedGroups = (
 				F1888A482E5A0184007352B8 /* ProductorConsumidor iOS */,
 			);
-			name = "ProductorConsumidor iOS";
+			name = ProductorConsumidoriOS;
 			packageProductDependencies = (
 			);
 			productName = "ProductorConsumidor iOS";
 			productReference = F1888A462E5A0184007352B8 /* ProductorConsumidor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F1888A562E5A0184007352B8 /* ProductorConsumidor macOS */ = {
+		F1888A562E5A0184007352B8 /* ProductorConsumidormacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1888A6D2E5A0184007352B8 /* Build configuration list for PBXNativeTarget "ProductorConsumidor macOS" */;
+			buildConfigurationList = F1888A6D2E5A0184007352B8 /* Build configuration list for PBXNativeTarget "ProductorConsumidormacOS" */;
 			buildPhases = (
 				F1888A532E5A0184007352B8 /* Sources */,
 				F1888A542E5A0184007352B8 /* Frameworks */,
@@ -133,7 +141,7 @@
 			fileSystemSynchronizedGroups = (
 				F1888A582E5A0184007352B8 /* ProductorConsumidor macOS */,
 			);
-			name = "ProductorConsumidor macOS";
+			name = ProductorConsumidormacOS;
 			packageProductDependencies = (
 			);
 			productName = "ProductorConsumidor macOS";
@@ -172,8 +180,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1888A452E5A0184007352B8 /* ProductorConsumidor iOS */,
-				F1888A562E5A0184007352B8 /* ProductorConsumidor macOS */,
+				F1888A452E5A0184007352B8 /* ProductorConsumidoriOS */,
+				F1888A562E5A0184007352B8 /* ProductorConsumidormacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -220,14 +228,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 944VS3P2G8;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -253,14 +262,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 944VS3P2G8;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -285,12 +295,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 944VS3P2G8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -298,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.diego.ProductorConsumidor;
 				PRODUCT_NAME = ProductorConsumidor;
@@ -318,12 +331,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 944VS3P2G8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.strategy-games";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -331,7 +347,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.diego.ProductorConsumidor;
 				PRODUCT_NAME = ProductorConsumidor;
@@ -472,7 +488,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1888A692E5A0184007352B8 /* Build configuration list for PBXNativeTarget "ProductorConsumidor iOS" */ = {
+		F1888A692E5A0184007352B8 /* Build configuration list for PBXNativeTarget "ProductorConsumidoriOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1888A6A2E5A0184007352B8 /* Debug */,
@@ -481,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1888A6D2E5A0184007352B8 /* Build configuration list for PBXNativeTarget "ProductorConsumidor macOS" */ = {
+		F1888A6D2E5A0184007352B8 /* Build configuration list for PBXNativeTarget "ProductorConsumidormacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1888A6E2E5A0184007352B8 /* Debug */,
